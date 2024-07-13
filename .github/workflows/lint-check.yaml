@@ -16,5 +16,6 @@ jobs:
           
       - name: lint
         run: |
+          npm i -g pnpm
           pnpm i
           pnpm lint
